@@ -9,6 +9,7 @@ library(ggraph)
 source("selection-algorithm.R")
 source("circleFun.R")
 source("net.R")
+source("presets.R")
 
 options(spinner.color = "#838B96")
 
@@ -22,8 +23,11 @@ ui <- tagList(
                     wellPanel(
                       h4("Which cocktails would you like to make?"),
                       br(),
-                      reactableOutput("cocktail_selection"),
-                      actionButton("submit", "Go!")
+                      withSpinner(reactableOutput("cocktail_selection"), type = 8),
+                      h3("Presets"),
+                      actionButton("whiskey", "Whiskey-Based"),
+                      actionButton("martini", "Martini's"),
+                      actionButton("daiquiri", "Daiquiri's")
                     )), # column
              column(3,
                     class = "col",
@@ -41,11 +45,6 @@ ui <- tagList(
 )
 
 server <- function(input, output, session) {
-  cocktails_reactable <- group_by(cocktails, drink) %>% 
-    summarise(ingredients = str_c(unique(ingredient), collapse = ", "),
-              .groups = "drop") %>% 
-    sample_n(size = nrow(.))
-  
   output$cocktail_selection <- renderReactable({
     reactable(cocktails_reactable,
               selection = "multiple",
@@ -69,8 +68,21 @@ server <- function(input, output, session) {
               ) # columns
     ) # reactable
   }) # renderReactable
+
   
-  drinks_selected <- eventReactive(input$submit, {
+  observeEvent(input$whiskey, {
+    updateReactable("cocktail_selection", selected = which(cocktails_reactable$drink %in% whiskey))
+  })
+  
+  observeEvent(input$martini, {
+    updateReactable("cocktail_selection", selected = which(cocktails_reactable$drink %in% martini))
+  })
+  
+  observeEvent(input$daiquiri, {
+    updateReactable("cocktail_selection", selected = which(cocktails_reactable$drink %in% daiquiri))
+  })
+  
+  drinks_selected <- reactive({
     state <- getReactableState("cocktail_selection", name = "selected")
     updateReactable("optimal_reactable", selected = NA)
     
