@@ -70,15 +70,36 @@ selection_path <- function(data, var, group, gamma = 5, cutoff = NULL) {
   out
 }
 
-capability <- function(x, data, group, var) {
-  out <- integer(length = length(x))
+capability2 <- function(x, data, group, var, collapse = TRUE) {
+  out <- list()
   
   for (i in seq_along(x)) {
-    out[i] <- data %>% 
+    out[[i]] <- data %>% 
       with_groups({{group}}, filter, all({{var}} %in% x[1:i])) %>% 
       distinct({{group}}) %>% 
-      nrow()
+      pull()
   }
   
-  return(out)
+  df <- tibble(i = seq_along(x), x, out)
+  
+  df1 <- df %>% 
+    unnest(cols = out, keep_empty = TRUE) %>% 
+    with_groups(i, mutate, performance = n_distinct(out, na.rm = TRUE))
+  
+  if (!collapse) {
+    output <- df1
+  } else {
+    df1 <- df1 %>%
+      with_groups(out, slice_min, i)
+    
+    output <- df %>%
+      filter(!x %in% df1$x) %>%
+      select(i, x) %>% 
+      bind_rows(df1)
+  }
+  
+  output %>%
+    rename({{var}} := x,
+           {{group}} := out) %>%
+    arrange(i)
 }

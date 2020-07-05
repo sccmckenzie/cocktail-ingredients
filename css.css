@@ -1,5 +1,5 @@
 .well {
-  min-height: 85vh;
+  height: 90vh;
   padding: 10px;
 }
 
@@ -8,7 +8,7 @@
   padding-right: 5px;
 }
 
-#col-selected .well {
+.well {
   background-color: #fcfcfc;
 }
 
