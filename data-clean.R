@@ -54,7 +54,7 @@ ingredients_similar <- with_categories %>%
             new_ingredient = ingredient[which.min(str_length(ingredient))]) %>% 
   unnest(ingredient)
 
-cocktails %>% 
+cocktails_clean <- cocktails %>% 
   left_join(with_categories) %>% 
   left_join(ingredients_similar) %>% 
   mutate(category = coalesce(category, "other"),
@@ -71,5 +71,10 @@ cocktails %>%
                      ingredient = "Whiskey",
                      measure = "4 cl",
                      category = "other"),
-              by = c("drink", "ingredient_number")) %>% 
+              by = c("drink", "ingredient_number"))
+
+cocktails_clean %>% 
   write_rds("cocktails.rds") # dataset ready for shiny app
+
+cocktails_clean %>% 
+  write_csv("cocktails.csv")

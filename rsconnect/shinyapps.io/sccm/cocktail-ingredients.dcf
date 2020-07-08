@@ -1,0 +1,10 @@
+name: cocktail-ingredients
+title:
+username:
+account: sccm
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2538994
+bundleId: 3355561
+url: https://sccm.shinyapps.io/cocktail-ingredients/
+when: 1593990081.02679
