@@ -24,6 +24,8 @@ ui <- tagList(
   includeCSS("css.css"),
   fluidPage(
     titlePanel(h2("Ingredient Selection Assistant"), "Cocktail Ingredients App"),
+    div(id = "blog-link",
+        HTML('See <a href = "https://sccm.io/cocktails-2/"> Blog Post</a> discussing algorithm used to optimize ingredient order')),
     div(
       actionButton("whiskey", "Whiskey-Based"),
       actionButton("martini", "Martini's"),
@@ -108,7 +110,7 @@ server <- function(input, output, session) {
       labs(x = "", y = "") +
       scale_x_discrete(position = "top") +
       scale_color_manual(values = colors, guide = FALSE) +
-      theme(axis.text.x.top = element_markdown(angle = 90, hjust = 0),
+      theme(axis.text.x.top = element_markdown(angle = 90, hjust = 0, vjust = 0.5),
             axis.text.y = element_markdown(),
             panel.grid = element_line(linetype = "dotted", color = "#D1DDE6", size = 0.4),
             text = element_text(size = 20))

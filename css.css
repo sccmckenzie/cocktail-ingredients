@@ -16,3 +16,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+#blog-link {
+  position: absolute;
+  text-align: right;
+  top: 0;
+  right: 0;
+  padding: 8px;
+}
