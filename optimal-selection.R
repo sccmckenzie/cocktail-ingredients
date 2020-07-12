@@ -2,21 +2,23 @@ library(readr)
 
 cocktails <- read_rds("cocktails.rds") # output from data.R
 
-optimal_selection <- tibble(ingredient = selection_path(cocktails, ingredient, drink)) %>% 
-  mutate(performance = capability(ingredient, cocktails, drink, ingredient))
+optimal_selection <- capability2(selection_path(cocktails, ingredient, drink), cocktails, drink, ingredient)
 
 optimal_selection %>% 
   write_rds("optimal-selection.rds")
 
-library(ggplot2)
-by_count <- cocktails %>% 
-  count(ingredient, sort = T) %>% 
-  mutate(performance = capability(ingredient, cocktails, drink, ingredient))
+optimal_selection %>% 
+  write_csv("optimal-selection.csv")
 
-tibble(method = c("count", "selection-alg"),
-       id = list(seq_len(nrow(by_count))),
-       data = list(by_count, optimal_selection)) %>% 
-  unnest(cols = id:data) %>% 
-  ggplot(aes(id, performance)) +
-  geom_line(aes(color = method, group = method)) +
+library(ggplot2)
+bind_rows(optimal_selection %>% 
+            mutate(method = "algorithm"),
+          capability2(count(cocktails, ingredient, sort = T)$ingredient,
+                      cocktails,
+                      drink,
+                      ingredient) %>% 
+            mutate(method = "frequency")) %>% 
+  fill(performance, .direction = "down") %>% 
+  ggplot(aes(i, performance)) +
+  geom_line(aes(color = method)) +
   theme_light()

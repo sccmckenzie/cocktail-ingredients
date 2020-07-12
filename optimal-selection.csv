@@ -1,0 +1,568 @@
+i,ingredient,drink,performance
+1,coffee,Spiking coffee,1
+2,kahlua,Iced Coffee Fillip,2
+3,irish cream,Baby Guinness,3
+4,sambuca,Bumble Bee #1,5
+4,sambuca,Dirty Nipple,5
+5,grand marnier,B-52,8
+5,grand marnier,B-53,8
+5,grand marnier,Talos Coffee,8
+6,vodka,Screaming Orgasm,9
+7,peach schnapps,Fuzzy Asshole,11
+7,peach schnapps,Sex on the Beach,11
+8,orange juice,Screwdriver,12
+9,grenadine,Addison Special,14
+9,grenadine,Bruce's Puce,14
+10,amaretto,Amaretto Sunrise,16
+10,amaretto,Godmother,16
+11,champagne,Bellini,18
+11,champagne,Mimosa,18
+12,cranberry juice,A Gilligan's Island,20
+12,cranberry juice,Absolutely Fabulous,20
+13,sour mix,Amaretto Sour,22
+13,sour mix,Amaretto Stone Sour,22
+14,tequila,Amaretto Stone Sour #3,24
+14,tequila,Tequila Sunrise,24
+15,white creme de menthe,Amaretto Stinger,26
+15,white creme de menthe,Zorro,26
+16,brandy,Kioki Coffee,28
+16,brandy,Stinger,28
+17,light cream,Amaretto And Cream,30
+17,light cream,Scooter,30
+18,creme de cacao,'57 Chevy with a White License Plate,33
+18,creme de cacao,Almond Joy,33
+18,creme de cacao,Foxy Lady,33
+19,gin,Alexander,36
+19,gin,Poppy Cocktail,36
+19,gin,Ruby Tuesday,36
+20,triple sec,Flying Dutchman,39
+20,triple sec,Orange Crush,39
+20,triple sec,Orgasm,39
+21,lemon juice,A1,42
+21,lemon juice,City Slicker,42
+21,lemon juice,White Lady,42
+22,pineapple juice,Afterglow,45
+22,pineapple juice,Hawaiian Cocktail,45
+22,pineapple juice,Waikiki Beachcomber,45
+23,light rum,Between The Sheets,48
+23,light rum,Havana Cocktail,48
+23,light rum,Rum Screwdriver,48
+24,lime,Amaretto Mist,51
+24,lime,Boston Sidecar,51
+24,lime,Cuba Libre,51
+25,apricot brandy,After Dinner Cocktail,54
+25,apricot brandy,After Supper Cocktail,54
+25,apricot brandy,Paradise,54
+26,green creme de menthe,Arise My Love,57
+26,green creme de menthe,Grasshopper,57
+26,green creme de menthe,Port And Starboard,57
+27,lime juice,Kamikaze,59
+27,lime juice,Margarita,59
+28,sugar syrup,Bacardi Cocktail,62
+28,sugar syrup,Espresso Martini,62
+28,sugar syrup,Rail Splitter,62
+29,creme de cassis,Kir,65
+29,creme de cassis,Kir Royale,65
+29,creme de cassis,Russian Spring Punch,65
+30,cognac,ABC,68
+30,cognac,Adam & Eve,68
+30,cognac,French Connection,68
+31,dark rum,155 Belmont,70
+31,dark rum,Adam,70
+32,egg white,Almeria,73
+32,egg white,Boxcar,73
+32,egg white,Pink Lady,73
+33,ginger ale,Dragonfly,76
+33,ginger ale,Moscow Mule,76
+33,ginger ale,Tequila Fizz,76
+34,cherry brandy,Cherry Rum,79
+34,cherry brandy,Orange Oasis,79
+34,cherry brandy,Veteran,79
+35,sweet and sour,Amaretto Sweet & Sour,82
+35,sweet and sour,Singapore Sling,82
+35,sweet and sour,Stone Sour,82
+36,lemon,Clover Club,84
+36,lemon,Sidecar Cocktail,84
+37,soda water,Autodafé,87
+37,soda water,Gin Rickey,87
+37,soda water,Orangeade,87
+38,raspberry liqueur,Bruised Heart,90
+38,raspberry liqueur,French Martini,90
+38,raspberry liqueur,Zipperhead,90
+39,sugar,Jam Donut,93
+39,sugar,Jitterbug,93
+39,sugar,Limeade,93
+40,galliano,California Root Beer,96
+40,galliano,GG,96
+40,galliano,Harvey Wallbanger,96
+41,cream,Alice Cocktail,99
+41,cream,Golden dream,99
+41,cream,Midnight Mint,99
+42,mint,Acapulco,102
+42,mint,Frozen Mint Daiquiri,102
+42,mint,Mojito,102
+43,crown royal,Avalanche,105
+43,crown royal,Red Snapper,105
+43,crown royal,Royal Flush,105
+44,frangelico,747,108
+44,frangelico,Afternoon,108
+44,frangelico,Royal Bitch,108
+45,milk,Cafe Savoy,111
+45,milk,Frappé,111
+45,milk,Nutty Irishman,111
+46,orange,Apricot Lady,113
+46,orange,Caribbean Orange Liqueur,113
+47,maraschino cherry,"French ""75""",118
+47,maraschino cherry,French 75,118
+47,maraschino cherry,Gin Daisy,118
+47,maraschino cherry,Gin Sour,118
+47,maraschino cherry,Rum Sour,118
+48,club soda,Amaretto Rose,122
+48,club soda,Brandy Cobbler,122
+48,club soda,Rum Cobbler,122
+48,club soda,Tom Collins,122
+49,sweet vermouth,Gentleman's Club,125
+49,sweet vermouth,Lone Tree Cocktail,125
+49,sweet vermouth,Victor,125
+50,powdered sugar,Daiquiri,128
+50,powdered sugar,Gin Fizz,128
+50,powdered sugar,Vesuvio,128
+51,bitters,Artillery,131
+51,bitters,Gin Swizzle,131
+51,bitters,Pink Gin,131
+52,lemon peel,Arthur Tompkins,134
+52,lemon peel,Champagne Cocktail,134
+52,lemon peel,Horse's Neck,134
+53,coca-cola,3-Mile Long Island Iced Tea,138
+53,coca-cola,Coke and Drops,138
+53,coca-cola,Long Island Iced Tea,138
+53,coca-cola,Long Island Tea,138
+54,bourbon,Bourbon Sour,141
+54,bourbon,Irish Curdling Cow,141
+54,bourbon,John Collins,141
+55,water,Bourbon Sling,145
+55,water,Classic Old-Fashioned,145
+55,water,Gin Toddy,145
+55,water,Iced Coffee,145
+56,carbonated water,English Highball,148
+56,carbonated water,Lady Love Fizz,148
+56,carbonated water,Mississippi Planters Punch,148
+57,dry vermouth,Addington,152
+57,dry vermouth,Bermuda Highball,152
+57,dry vermouth,Rose,152
+57,dry vermouth,Vermouth Cassis,152
+58,cherry,Brandy Sour,156
+58,cherry,English Rose Cocktail,156
+58,cherry,Gin Smash,156
+58,cherry,Tequila Sour,156
+59,scotch,Balmoral,161
+59,scotch,Dry Rob Roy,161
+59,scotch,Flying Scotchman,161
+59,scotch,Godfather,161
+59,scotch,Scotch Sour,161
+60,blended whiskey,Algonquin,166
+60,blended whiskey,Boston Sour,166
+60,blended whiskey,California Lemonade,166
+60,blended whiskey,Imperial Fizz,166
+60,blended whiskey,Whiskey Sour,166
+61,benedictine,Bobby Burns Cocktail,172
+61,benedictine,Frisco Sour,172
+61,benedictine,Kentucky B And B,172
+61,benedictine,Kentucky Colonel,172
+61,benedictine,Monkey Gland,172
+61,benedictine,Queen Elizabeth,172
+62,orange bitters,Abbey Cocktail,176
+62,orange bitters,Affinity,176
+62,orange bitters,Martinez Cocktail,176
+62,orange bitters,Valencia Cocktail,176
+63,maraschino liqueur,Aviation,181
+63,maraschino liqueur,Boomerang,181
+63,maraschino liqueur,Casino,181
+63,maraschino liqueur,London Town,181
+63,maraschino liqueur,Mary Pickford,181
+64,ice,A True Amaretto Sour,184
+64,ice,Cuba Libra,184
+64,ice,Frozen Daiquiri,184
+65,rum,Adios Amigos Cocktail,187
+65,rum,Orange Whip,187
+65,rum,Rum Toddy,187
+66,blue curacao,Bluebird,190
+66,blue curacao,Flaming Lamborghini,190
+66,blue curacao,The Evil Blue Thing,190
+67,lemonade,Adam Sunrise,195
+67,lemonade,Atomic Lokade,195
+67,lemonade,Aztec Punch,195
+67,lemonade,Blue Lagoon,195
+67,lemonade,Shark Attack,195
+68,southern comfort,A Piece of Ass,198
+68,southern comfort,Alice in Wonderland,198
+68,southern comfort,Bible Belt,198
+69,sloe gin,Alabama Slammer,202
+69,sloe gin,Blackthorn,202
+69,sloe gin,Kool-Aid Shot,202
+69,sloe gin,Sloe Gin Cocktail,202
+70,wine,Archbishop,206
+70,wine,Clove Cocktail,206
+70,wine,Thriller,206
+70,wine,Whisky Mac,206
+71,absolut citron,Absolutly Screwed Up,209
+71,absolut citron,Lemon Shot,209
+71,absolut citron,New York Lemonade,209
+72,cointreau,Cosmopolitan,213
+72,cointreau,Cosmopolitan Martini,213
+72,cointreau,Sidecar,213
+72,cointreau,Zizi Coin-coin,213
+73,grapefruit juice,Hemingway Special,216
+73,grapefruit juice,Monkey Wrench,216
+73,grapefruit juice,Sea breeze,216
+74,nutmeg,Brandy Alexander,219
+74,nutmeg,Quentin,219
+74,nutmeg,Rum Milk Punch,219
+75,egg,Brandy Flip,222
+75,egg,Royal Fizz,222
+75,egg,Royal Gin Fizz,222
+76,port,Chicago Fizz,226
+76,port,Japanese Fizz,226
+76,port,Port Wine Cocktail,226
+76,port,Port Wine Flip,226
+77,sherry,Adonis Cocktail,230
+77,sherry,Quarter Deck Cocktail,230
+77,sherry,Sherry Eggnog,230
+77,sherry,Sherry Flip,230
+78,vanilla ice-cream,Baby Eskimo,233
+78,vanilla ice-cream,Bailey's Dream Shake,233
+78,vanilla ice-cream,Brandon and Will's Coke Float,233
+79,angostura bitters,Abbey Martini,236
+79,angostura bitters,Mojito #3,236
+79,angostura bitters,Old Fashioned,236
+80,tonic water,Absolut limousine,240
+80,tonic water,Gin And Tonic,240
+80,tonic water,Long vodka,240
+80,tonic water,Vodka And Tonic,240
+81,absolut vodka,Absolutely Cranberry Smash,243
+81,absolut vodka,AT&T,243
+81,absolut vodka,Lemon Drop,243
+82,heavy cream,Ace,246
+82,heavy cream,Godchild,246
+82,heavy cream,Midnight Cowboy,246
+83,olive,Highland Fling Cocktail,249
+83,olive,Martini,249
+83,olive,Vodka Martini,249
+84,coffee liqueur,Black Russian,252
+84,coffee liqueur,Jamaica Kiss,252
+84,coffee liqueur,White Russian,252
+85,spiced rum,Cream Soda,255
+85,spiced rum,Happy Skipper,255
+85,spiced rum,Orange Push-up,255
+86,salt,Blue Margarita,257
+86,salt,Salty Dog,257
+87,vanilla extract,Coffee Liqueur,259
+87,vanilla extract,Egg-Nog - Classic Cooked,259
+88,red wine,New York Sour,261
+88,red wine,Wine Punch,261
+89,lemon-lime soda,National Aquarium,265
+89,lemon-lime soda,Queen Charlotte,265
+89,lemon-lime soda,Rum Cooler,265
+89,lemon-lime soda,Wine Cooler,265
+90,151 proof rum,Grim Reaper,267
+90,151 proof rum,Texas Sling,267
+91,kool-aid,Kool-Aid Slammer,270
+91,kool-aid,Kool First Aid,270
+91,kool-aid,Zippy's Revenge,270
+92,everclear,Berry Deadly,273
+92,everclear,Danbooka,273
+92,everclear,Pink Penocha,273
+93,wild turkey,252,276
+93,wild turkey,ACID,276
+93,wild turkey,Turkeyball,276
+94,melon liqueur,Arizona Antifreeze,278
+94,melon liqueur,Quick F**K,278
+95,malibu rum,Grand Blue,281
+95,malibu rum,Radioactive Long Island Iced Tea,281
+95,malibu rum,Space Odyssey,281
+96,creme de banane,A Splash of Nash,284
+96,creme de banane,After sex,284
+96,creme de banane,San Francisco,284
+97,yoghurt,Lassi - Sweet,286
+97,yoghurt,Lassi Raita,286
+98,apple juice,Apello,288
+98,apple juice,Pysch Vitamin Light,288
+99,pineapple,Frozen Pineapple Daiquiri,290
+99,pineapple,Grass Skirt,290
+100,strawberries,Gin Squirt,292
+100,strawberries,Strawberry Lemonade,292
+101,banana,Banana Daiquiri,295
+101,banana,Banana Milk Shake,295
+101,banana,Banana Strawberry Shake Daiquiri-type,295
+102,honey,Banana Strawberry Shake,298
+102,honey,Strawberry Shivers,298
+102,honey,Sweet Bananas,298
+103,fruit,Adam Bomb,301
+103,fruit,Fruit Shake,301
+103,fruit,Yoghurt Cooler,301
+104,strawberry schnapps,Affair,304
+104,strawberry schnapps,Strawberry Daiquiri,304
+104,strawberry schnapps,Strawberry Margarita,304
+105,7-up,69 Special,306
+105,7-up,Apricot punch,306
+106,goldschlager,Big Red,308
+106,goldschlager,Midnight Manx,308
+107,jägermeister,Auburn Headbanger,312
+107,jägermeister,Bob Marley,312
+107,jägermeister,Freddy Kruger,312
+107,jägermeister,Grizzly Bear,312
+108,beer,Lunch Box,314
+108,beer,Radler,314
+109,root beer,Zambeer,317
+109,root beer,Zenmeister,317
+109,root beer,Zoksel,317
+110,jack daniels,Applejack,319
+110,jack daniels,Jackhammer,319
+111,whipped cream,Jamaican Coffee,321
+111,whipped cream,Tennesee Mud,321
+112,cocoa powder,Microwave Hot Cocoa,324
+112,cocoa powder,Mocha-Berry,324
+112,cocoa powder,Nuked Hot Chocolate,324
+113,egg yolk,Casino Royale,327
+113,egg yolk,Egg Nog #4,327
+113,egg yolk,Porto flip,327
+114,orange peel,Gin Sling,329
+114,orange peel,Manhattan,329
+115,ginger,Kill the cold Smoothie,331
+115,ginger,Pineapple Gingerale Smoothie,331
+116,apple,Fruit Cooler,333
+116,apple,Sangria - The World's Best,333
+117,campari,Americano,335
+117,campari,Negroni,335
+118,lager,110 in the shade,337
+118,lager,Campari Beer,337
+119,cider,Amaretto Sunset,340
+119,cider,Green Goblin,340
+119,cider,Snake Bite (UK),340
+120,chocolate syrup,Black Forest Shake,342
+120,chocolate syrup,Egg Cream,342
+121,anis,Turf Cocktail,344
+121,anis,Tuxedo Cocktail,344
+122,blackberry brandy,Allegheny,347
+122,blackberry brandy,Jelly Bean,347
+122,blackberry brandy,Rum Runner,347
+123,butterscotch schnapps,Butter Baby,349
+123,butterscotch schnapps,Mother's Milk,349
+124,guinness stout,Black and Brown,351
+124,guinness stout,Irish Russian,351
+125,irish whiskey,Hot Creamy Bush,353
+125,irish whiskey,Irish Coffee,353
+126,surge,Bleeding Surgeon,355
+126,surge,Zinger,355
+127,mountain dew,Brain Fart,357
+127,mountain dew,Gideon's Green Dinosaur,357
+128,white rum,Caipirissima,359
+128,white rum,Yellow Bird,359
+129,tabasco sauce,Brave Bull Shooter,361
+129,tabasco sauce,Tequila Surprise,361
+130,chocolate ice-cream,Amaretto Shake,363
+130,chocolate ice-cream,Chocolate Black Russian,363
+131,godiva liqueur,Blind Russian,365
+131,godiva liqueur,Sweet Tooth,365
+132,peach nectar,Abilene,367
+132,peach nectar,Bellini Martini,367
+133,anisette,Shanghai Cocktail,369
+133,anisette,Sol Y Sombra,369
+134,apple brandy,Angel Face,371
+134,apple brandy,Jack Rose Cocktail,371
+135,applejack,A. J.,373
+135,applejack,Applecar,373
+136,berries,Apple Berry Smoothie,375
+136,berries,Sunny Holiday Punch,375
+137,drambuie,Loch Lomond,377
+137,drambuie,Rusty Nail,377
+138,ginger beer,A Furlong Too Late,379
+138,ginger beer,Dark and Stormy,379
+139,iced tea,Arizona Stingers,381
+139,iced tea,Ice Pick #1,381
+140,mango,Lassi - Mango,383
+140,mango,Mango Orange Smoothie,383
+141,orange spiral,Gin Cooler,385
+141,orange spiral,Lone Tree Cooler,385
+142,orgeat syrup,Mai Tai,387
+142,orgeat syrup,Planter's Punch,387
+143,ouzo,Surf City Lifesaver,389
+143,ouzo,Zorbatini,389
+144,pepsi cola,Mudslinger,391
+144,pepsi cola,Smut,391
+145,prosecco,Barracuda,393
+145,prosecco,Spritz,393
+146,vermouth,Addison,395
+146,vermouth,Ziemes Martini Apfelsaft,395
+147,zima,Zima Blaster,397
+147,zima,Zimadori Zinger,397
+148,cinnamon,Apple Pie with A Crust,398
+149,chocolate,Chocolate Beverage,401
+149,chocolate,Chocolate Drink,401
+149,chocolate,Spanish chocolate,401
+150,cloves,Gluehwein,404
+150,cloves,Mulled Wine,404
+150,cloves,Sangria #1,404
+151,brown sugar,Spiced Peach Punch,406
+151,brown sugar,Tia-Maria,406
+152,espresso,Melya,408
+152,espresso,Orange Scented Hot Chocolate,408
+153,passion fruit juice,Bora Bora,410
+153,passion fruit juice,Ipamena,410
+154,tea,Amaretto Tea,411
+155,absolut kurant,1-900-FUK-MEUP,413
+155,absolut kurant,Kurant Tea,413
+156,sprite,Absolut Sex,415
+156,sprite,Absolut Summertime,415
+157,coconut liqueur,Absolut Stress #2,417
+157,coconut liqueur,Belgian Blue,417
+158,condensed milk,Egg Nog - Healthy,419
+158,condensed milk,Thai Iced Tea,419
+159,dark creme de cacao,151 Florida Bushwacker,421
+159,dark creme de cacao,Almond Chocolate Coffee,421
+160,fruit punch,Downshift,423
+160,fruit punch,Rum Punch,423
+161,tomato juice,Vampiro,424
+162,celery salt,Bloody Maria,426
+162,celery salt,Tomato Tang,426
+163,bacardi limon,Citrus Coke,427
+164,corona,Buccaneer,430
+164,corona,Caribbean Boilermaker,430
+164,corona,Limona Corona,430
+165,cachaca,Caipirinha,431
+166,agave syrup,Girl From Ipanema,433
+166,agave syrup,Tommy's Margarita,433
+167,cardamom,Thai Iced Coffee,434
+168,advocaat,Snowball,435
+169,añejo rum,A Night In Old Mandalay,436
+170,tia maria,Blue Mountain,438
+170,tia maria,Lord And Lady,438
+171,apple cider,Apple Grande,439
+172,banana liqueur,Bubble Gum,440
+173,cream of coconut,Whitecap Margarita,441
+174,grape juice,Victory Collins,442
+175,hot damn,Herbal flame,443
+176,whiskey,Damned if you do,445
+176,whiskey,Owen's Grandmother's Revenge,445
+177,jim beam,Shot-gun,446
+178,peach vodka,410 Gone,447
+179,pisang ambon,Avalon,448
+180,bitter lemon,Absolut Evergreen,449
+181,vanilla,Drinking Chocolate,450
+182,yellow chartreuse,Alaska Cocktail,451
+183,schweppes russchian,Vodka Russian,452
+184,grain alcohol,Karsk,453
+185,johnnie walker,3 Wise Men,454
+186,pisco,Pisco Sour,455
+187,almond flavoring,Cranberry Punch,456
+188,allspice,Apple Cider Punch #1,457
+189,coriander,Thai Coffee,458
+190,absinthe,Moranguito,459
+191,ale,Black & Tan,460
+192,aperol,Imperial Cocktail,461
+193,apple schnapps,Apple Slammer,462
+194,aquavit,Swedish Coffee,463
+195,asafoetida,Lassi Khara,464
+196,black pepper,Masala Chai,465
+197,black sambuca,Quick-sand,466
+198,blackcurrant cordial,Diesel,467
+199,blackcurrant squash,Snakebite and Black,468
+200,blueberry schnapps,501 Blue,469
+201,cantaloupe,Banana Cantaloupe Smoothie,470
+202,caramel coloring,Coffee-Vodka,471
+203,carbonated soft drink,Holloween Punch,472
+204,carrot,Apple Karate,473
+205,cayenne pepper,Lemouroudji,474
+206,cherry grenadine,Cherry Electric Lemonade,475
+207,cherry heering,Darkwood Sling,476
+208,cherry liqueur,Popped cherry,477
+209,chocolate liqueur,Chocolate Milk,478
+210,chocolate milk,Chocolate Monkey,479
+211,coconut milk,Pina Colada,480
+212,coconut rum,A Day at the Beach,481
+213,corn syrup,Homemade Kahlua,482
+214,cornstarch,Castillian Hot Chocolate,483
+215,cranberries,Cranberry Cordial,484
+216,creme de mure,Bramble,485
+217,cumin seed,Lassi - A South Indian Drink,486
+218,curacao,Scotch Cobbler,487
+219,demerara sugar,Dark Caipirinha,488
+220,dr. pepper,Flaming Dr. Pepper,489
+221,dubonnet rouge,Dubonnet Cocktail,490
+222,erin cream,Brainteaser,491
+223,fresca,Sweet Sangria,492
+224,fruit juice,Fruit Flip-Flop,493
+225,gold tequila,Arizona Twister,494
+226,grapes,Grape lemon pineapple Smoothie,495
+227,green chartreuse,Jewel Of The Nile,496
+228,guava juice,Aloha Fruit punch,497
+229,hot chocolate,A.D.M. (After Dinner Mint),498
+230,jello,Jello shots,499
+231,kiwi liqueur,Kiwi Lemon,500
+232,kummel,Allies Cocktail,501
+233,lemon vodka,Alfie Cocktail,502
+234,lillet blanc,Vesper,503
+235,lime juice cordial,Army special,504
+236,lime peel,Rum Old-fashioned,505
+237,maple syrup,Van Vleet,506
+238,maui,Arctic Mouthwash,507
+239,mint syrup,Just a Moonmint,508
+240,olive brine,Dirty Martini,509
+241,oreo cookie,Oreo Mudslide,510
+242,passion fruit syrup,Atlantic Sun,511
+243,peach bitters,Derby,512
+244,peach brandy,Irish Spring,513
+245,peppermint schnapps,After Five,514
+246,pink lemonade,Pink Panty Pulldowns,515
+247,raspberry syrup,Quaker's Cocktail,516
+248,raspberry vodka,Raspberry Cooler,517
+249,rumple minze,24k nightmare,518
+250,rye whiskey,Artillery Punch,519
+251,sarsaparilla,Flander's Flake-Out,520
+252,sirup of roses,Gagliardo,521
+253,tennessee whiskey,Jack's Vanilla Coke,522
+254,tropicana,Malibu Twister,523
+255,vanilla vodka,50/50,524
+256,Whiskey,H.D.,525
+257,worcestershire sauce,Bloody Mary,526
+258,yukon jack,Texas Rattlesnake,527
+259,half-and-half,NA,NA
+260,coconut syrup,Irish Cream,528
+261,limeade,Vodka Fizz,529
+262,strawberry liqueur,NA,NA
+263,kirschwasser,A midsummernight dream,530
+264,orange curacao,9 1/2 Weeks,531
+265,food coloring,NA,NA
+266,peppermint extract,Creme de Menthe,532
+267,angelica root,NA,NA
+268,fennel seeds,Scottish Highland Liqueur,533
+269,absolut peppar,NA,NA
+270,firewater,Fahrenheit 5000,534
+271,apfelkorn,NA,NA
+272,cranberry vodka,Kiss me Quick,535
+273,apricot,NA,NA
+274,glycerine,Amaretto Liqueur,536
+275,butter,NA,NA
+276,marshmallows,Hot Chocolate to Die for,537
+277,candy,NA,NA
+278,grape soda,Arctic Fish,538
+279,coffee brandy,NA,NA
+280,lime vodka,Queen Bee,539
+281,daiquiri mix,NA,NA
+282,pina colada mix,Miami Vice,540
+283,kiwi,NA,NA
+284,papaya,Kiwi Papaya Smoothie,541
+285,peychaud bitters,NA,NA
+286,ricard,Sazerac,542
+287,anise,NA,NA
+288,almond,NA,NA
+289,marjoram leaves,Angelica Liqueur,543
+290,licorice root,NA,NA
+291,wormwood,Absinthe #2,544
+292,caramel sauce,NA,NA
+293,chocolate sauce,NA,NA
+294,mini-snickers bars,Boozy Snickers Milkshake,545
+295,lavender,NA,NA
+296,pepper,NA,NA
+297,pineapple syrup,NA,NA
+298,st. germain,Duchamp's Punch,546
